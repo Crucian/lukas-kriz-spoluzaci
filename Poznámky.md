@@ -21,12 +21,12 @@
 
 ## Obecné
 1) Globální prvky
-  * Grid
-  * Formuláře
-   * Stavy
-  * Tlačítka
-  * Hlášky
-  * Ikonový systém
+>* Grid
+>* Formuláře
+>* Stavy
+>* Tlačítka
+>* Hlášky
+>* Ikonový systém
 2) Lytebox / dialogy (vyvolané ve vrstvě)
 3) Loading (částečně již připraven)
 
