@@ -22,7 +22,7 @@
 ## Obecné
 1) Globální prvky (3h)
 >* Grid (2h)
->* Formuláře (2h)
+>* Formuláře(#Formuláře) (2h)
 >* Stavy (0.5h)
 >* Tlačítka (1h)
 >* Hlášky (1h)
