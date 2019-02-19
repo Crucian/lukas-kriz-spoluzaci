@@ -1,6 +1,6 @@
 # Poznámky k projektu Spolužáci
 
-* Obecné
+* [Obecné](#Obecné)
 * Desktop
   * Homepage (home_alt.psd)
   * Škola (skola.psd) 
