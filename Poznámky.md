@@ -42,8 +42,8 @@
 1) Základní rozvržení
 2) Hlavní pozadí + animace rukou (dle domluvy loop/delay/stop)
 3) U otevřeného inputu pro **Vyhledávání školy** je jakýsi *našeptávač*, pouze skrze SCSS nepůjde nastylovat. 
-> **Dotaz:** 
-Budeš to programovat a simulovat systémové chování, nebo tam bude nějaký modul **autocomplete**?
+   > **Dotaz:** 
+   Budeš to programovat a simulovat systémové chování, nebo tam bude nějaký modul **autocomplete**?
 
 ### Škola (skola.psd) 
 ### Školy (skoly_alt.psd)
