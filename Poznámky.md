@@ -20,7 +20,7 @@
 2) Existuje nějaké barevné schéma, kterého se budeme držet (manuál), nebo si mám barvy vytahovat kapátkem z daných prvků v **.psd**?
 
 ## Obecné
-1) Globální prvky (12h)
+1) Globální prvky (11.5h)
 >* Grid (2h)
 >* Formuláře (4h)
 >* Stavy (0.5h)
@@ -78,7 +78,7 @@
 1) Avatar, jméno, profil, výběr třídy, navigace (2h)
 2) Blok konverzace (obecně) (2h)
 >* Hover stav nad avatarem uživatele a slide (1h)
->* Zanoření reakce konverzace
+>* Zanoření reakce konverzace (0.25)
 >* Ikony (0,5h)
 >* Emoticons (dropdown) (1h)
 
@@ -110,7 +110,7 @@ Viz [Formuláře](#Obecné) / nebude potřeba více času
 ## Mobile
 ---------------------------------
 ### Obecné reponsivní chování
-1) Globální prvky (12h)
+1) Globální prvky (celkem 4h)
 >* Grid (1h)
 >* Formuláře (0.5h)
 >* ~~Stavy~~ (0h)
