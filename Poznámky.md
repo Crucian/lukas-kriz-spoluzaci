@@ -1,166 +1,129 @@
 # Poznámky k projektu Spolužáci a nacenění prací
 
-* [Obecné](#Obecné)
-* [Desktop](#Desktop)
-  * Homepage (home_alt.psd)
-  * Škola (skola.psd) 
-  * Školy (skoly_alt.psd)
-  * Třída (trida.psd)
-    * Formulář třída (formular_trida.psd) 
-  * Formulář (formular.psd)
-* [Mobile](#Mobile)
-  * Homepage (home_mobil.psd)
-  * Škola (skola_mobil.psd) 
-  * Školy (skoly_mobil.psd)
-  * Třída (trida_mobil_2.psd)
-  * Formulář (formular_mobil.psd)
+* Obecné
+* Desktop
+ *  Homepage (home_alt.psd)
+ * Škola (skola.psd)
+ * Školy (skoly_alt.psd)
+ * Třída (trida.psd)
+ * Formulář třída (formular_trida.psd)
+ * Formulář (formular.psd)
+* Mobile
+ * Homepage (home_mobil.psd)
+ * Škola (skola_mobil.psd)
+ * Školy (skoly_mobil.psd)
+ * Třída (trida_mobil_2.psd)
+ * Formulář (formular_mobil.psd)
 
-## Dotazy
-1) Co znamená sufix **_alt** v názvech dokumentů **.psd**
-2) Existuje nějaké barevné schéma, kterého se budeme držet (manuál), nebo si mám barvy vytahovat kapátkem z daných prvků v **.psd**?
+**Dotazy**
+> Co znamená sufix _alt v názvech dokumentů .psd?
+> Existuje nějaké barevné schéma, kterého se budeme držet (manuál), nebo si mám barvy vytahovat kapátkem z daných prvků v .psd?
+
+**Celkem cca 37 h (odhad času) = 11 - 12 000 Kč (idealně bez papíru)**
+Níže rozepsáno podrobněji.
 
 ## Obecné
-1) Globální prvky **(celkem 11.5h)**
->* Grid (2h)
->* Formuláře (4h)
->* Stavy (0.5h)
->* Tlačítka (1h)
->* Hlášky (1h)
->* Ikonový systém (3h)
-2) Lytebox / dialogy (vyvolané ve vrstvě) - login **(1h)**
-3) Loading (částečně již připraven) **(0.5h)**
-4) Tooltipy **(1h)**
+> Globální prvky (celkem 10h)
+> Grid
+> Formuláře
+> Stavy
+> Tlačítka
+> Hlášky
+> Ikonový systém
+> Lytebox / dialogy (vyvolané ve vrstvě) - login
+> Loading (částečně již připraven)
+> Tooltipy
 
 ## Desktop
+> Main (vzejde z obecné hlavičky/patičky) (0.5h)
+> Hlavička
+> Patička
 
-### Main (vzejde z obecné hlavičky/patičky)
-
-1) Hlavička **(0.5h)**
-2) Patička **(0.5h)**
-
-### Homepage (home_alt.psd)
-
-1) Základní rozvržení **(1h)**
-2) Hlavní pozadí + animace rukou (dle domluvy loop/delay/stop) **(2h)**
-3) U otevřeného inputu pro **Vyhledávání školy** je jakýsi *našeptávač*, pouze skrze SCSS nepůjde nastylovat. 
-   
-   > **Dotaz:** 
-   Budeš to programovat a simulovat systémové chování, nebo tam bude nějaký modul **autocomplete**?
-
-4) Mapa **(celkem 3h)**
->* Rozdělení na regiony a příprava stavů hover/active a mapy obecně (2.5h)
->* Seznam ragionů (0.5h)
-
-   > **Dotaz:** 
-   Chceš tam připravit nějaká ID do regionů, až to budu kodovat?
+### Homepage (home_alt.psd) (4,5h)
+> Základní rozvržení
+> Hlavní pozadí + animace rukou (dle domluvy loop/delay/stop)
 
 ### Subpage
-1) Rozvržení **(celkem 0.5h)**
->* Levý sloupec (0.25h)
->* Pravý sloupec (0.25h)
+> Základní rozvržení (0.5h)
+> Levý sloupec
+> Pravý sloupec
 
-#### Škola (skola.psd) 
+#### Škola (skola.psd) (3.5h)
+> Logotyp/avatar, název, adresa školy
+> Blok s formulářem pro rok ukončení a jeho výpočet
+> Blok ročníku + výpis tříd v ročníku
+> Blok přidání třídy
 
-1) Logotyp/avatar, název, adresa školy **(1h)**
-2) Blok s formulářem pro *rok ukončení* a jeho výpočet **(1h)**
-3) Blok ročníku + výpis tříd v ročníku **(2h)**
-4) Blok přidání třídy **(1h)**
+#### Školy (skoly_alt.psd) (2h)
+> Formulář v levé části
+> Blok školy (logov, název, adresa)
+> Přihlásit / registrovat
+> Stránkování / donačítání
 
-#### Školy (skoly_alt.psd)
+#### Třída (trida.psd) (5h)
+> Avatar, jméno, profil, výběr třídy, navigace
+> Blok konverzace (obecně)
+> Hover stav nad avatarem uživatele a slide
+> Zanoření reakce konverzace
+> Ikony
+> Emoticons (dropdown)
+> Záhlaví (profil/přihlášený uživatel, icon bar)
+> Notifikace, Nastavení, Zámek
 
-1) Formulář v levé části **(1h)**
-2) Blok školy (logov, název, adresa) **(0,5h)**
-3) Přihlásit / registrovat **(0,5h)**
-4) Stránkování / donačítání **(0,5h)**
+Dotaz: Vedou prvky do nějakých strránek? Profilu, formulář? (budeme konstruovat z globálních prvků)
 
-#### Třída (trida.psd)
-
-1) Avatar, jméno, profil, výběr třídy, navigace **(2h)**
-2) Blok konverzace (obecně) (1.5h) **(celkem cca 4.5h)**
->* Hover stav nad avatarem uživatele a slide (1h)
->* Zanoření reakce konverzace (0.25)
->* Ikony (0,5h)
->* Emoticons (dropdown) (1h)
-3) Záhlaví (profil/přihlášený uživatel, icon bar) **(celkem cca 1.5h)**
->* Notifikace (1h)
->* Nastavení (?h)
-
-   > **Dotaz:** 
-   Vede do stránky profilu/nějaký formulář? (budeme konstruovat z globálních prvků)
-
->* Zámek (?h)
-
-   > **Dotaz:** 
-   Kam vede/co dělá?
-   
 #### Formulář
+Viz Formuláře / nebude potřeba více času
 
-Viz [Formuláře](#Obecné) / nebude potřeba více času
+#### Formulář třída (formular_trida.psd)
+Viz Formuláře / nebude potřeba více času
 
-#### Formulář třída (formular_trida.psd) 
-
-Viz [Formuláře](#Obecné) / nebude potřeba více času
-
-
----------------------------------
 ## Mobile
----------------------------------
-### Obecné reponsivní chování
-1) Globální prvky **(celkem 2h)**
->* Grid (0.5h)
->* Formuláře (0.5h)
->* ~~Stavy~~ (0h)
->* ~~Tlačítka~~ (0h)
->* ~~Hlášky~~ (0h)
->* Ikonový systém (1h)
-2) Lytebox / dialogy (vyvolané ve vrstvě) - login **(0.25h)**
-3) Loading (částečně již připraven) **(0.5h)**
-4) Tooltipy **(0.5h)**
-5) Chování navigací, filterů a různých slidů v rozlišeních pro mobil/tablet **(1.5h)**
 
-### Main (vzejde z obecné hlavičky/patičky)
+> Obecné reponsivní chování (3.5h)
+> Globální prvky
+> Grid
+> Formuláře
+> Stavy
+> Tlačítka (0h)
+> Hlášky (0h)
+> Ikonový systém
+> Lytebox / dialogy (vyvolané ve vrstvě) - login
+> Loading (částečně již připraven)
+> Tooltipy
+> Chování navigací, filtrů a různých slidů v rozlišeních pro mobil/tablet
 
-1) Hlavička **(0.25h)**
-2) Patička **(0.25h)**
+### Main (vzejde z obecné hlavičky/patičky) (0.25h)
 
-### Homepage (home_mobil.psd)
-
-1) Základní rozvržení **(0.5h)**
-2) Hlavní pozadí + animace rukou (dle domluvy loop/delay/stop) **(0.5h)**
-3) ~~Mapa~~ (0h) /nebude zobrazena - pouze seznam regionů/
+### Homepage (home_mobil.psd) (1h)
+> Základní rozvržení 
+> Hlavní pozadí + animace rukou (dle domluvy loop/delay/stop)
+> Mapa / nebude zobrazena - pouze seznam regionů/
 
 ### Subpage
-1) Rozvržení **(celkem 0.25h)**
->* Levý sloupec
->* Pravý sloupec
+> Základní rozvržení (0.25h)
 
-#### Škola (skola_mobil.psd) 
+#### Škola (skola_mobil.psd) (2.5h)
+> Logotyp/avatar, název, adresa školy
+> Blok s formulářem pro rok ukončení a jeho výpočet 
+> Blok ročníku + výpis tříd v ročníku
+> Blok přidání třídy
 
-1) Logotyp/avatar, název, adresa školy **(0.5h)**
-2) Blok s formulářem pro *rok ukončení* a jeho výpočet **(1h)**
-3) Blok ročníku + výpis tříd v ročníku **(1h)**
-4) Blok přidání třídy **(0.25h)**
+#### Školy (skoly_mobil.psd) (1.25h)
+> Formulář/filtr v levé části
+> Blok školy (logo, název, adresa)
+> Přihlásit
+> Stránkování / donačítání
 
-#### Školy (skoly_mobil.psd)
+#### Třída (trida_mobil_2.psd) (2.5h)
+> Avatar, jméno, profil, výběr třídy, navigace
+> Blok konverzace (obecně)
+> Hover stav nad avatarem uživatele a slide
+> Zanoření reakce konverzace
+> Ikony
+> Emoticons (dropdown)
+> Záhlaví (profil/přihlášený uživatel, iconbar)
+> Notifikace, Nastavení
 
-1) Formulář/filtr v levé části **(0.5h)**
-2) Blok školy (logo, název, adresa) **(0,5h)**
-3) Přihlásit **(0,25h)**
-4) ~~Stránkování / donačítání~~ (0h)
-
-#### Třída (trida_mobil_2.psd)
-
-1) Avatar, jméno, profil, výběr třídy, navigace **(0.5h)****
-2) Blok konverzace (obecně) (0.25h) **(celkem 0.75h)**
->* ~~Hover stav nad avatarem uživatele a slide~~ (0h)
->* ~~Zanoření reakce konverzace~~ (0h)
->* Ikony (0.25h)
->* Emoticons (dropdown) (0.25h)
-3) Záhlaví (profil/přihlášený uživatel, iconbar) **(celkem 0.5h)**
->* Notifikace (0.5h)
->* ~~Nastavení~~ (0h)
->* ~~Zámek~~ (0h)
-
-#### formular_mobil (formular.psd)
-
-Viz [Formuláře](#Obecné) / nebude potřeba více času
+#### Formulář (formular_mobil.psd)
+Viz Formuláře / nebude potřeba více času
